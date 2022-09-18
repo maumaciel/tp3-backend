@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-login {
+    background-image: url('../images/login-background.jpg');
+}
+
+.body-error {
+    background-image: url('../images/error-background.png');
+}
+
+.font {
+    font-family: 'VT323', monospace;
+}
+
+.title {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.title-error {
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+.data {
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: #000;
+    padding: 2px;
+}
+
+.button {
+    height: 50px;
+    width: 100px;
+    border-radius: 4px;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: 7px 7px #000;
+    background-color: rgb(177, 163, 163);
+    margin-bottom: 10px;
+}
+
+.button:hover {
+    background-color: rgb(253, 241, 241);
+}
+
+.button:active {
+    transform: translateY(4px);
+    box-shadow: 0 3px #000;
+}
+
+.recover-pass {
+    text-decoration: none;
+    color: #fff;
+}
+
+.recover-pass:hover {
+    color: rgb(177, 163, 163);
+}
+
+.back {
+    text-align: center;
+}
+
+.back-link {
+    text-decoration: none;
+    font-size: 70px;
+    color: rgb(155, 177, 196);
+}
+
+.back-link:hover {
+    color:#638fbb;
+}
+
+form {
+    text-align: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #000;
+    border-radius: 4px;
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    color: #fff;
+    letter-spacing: 2px;
+}
